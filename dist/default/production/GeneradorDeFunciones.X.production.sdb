@@ -1,0 +1,333 @@
+[p LITE_MODE AUTOSTATIC LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F45K50 ]
+[d frameptr 4065 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"20 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"11 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"25 C:\Users\Marco Flores\Documents\MPLABXProjects\Pickit 3\GeneradorDeFunciones.X\lcd_lib.h
+[v _Lcd_Port Lcd_Port `(v  1 e 1 0 ]
+"47
+[v _Lcd_Cmd Lcd_Cmd `(v  1 e 1 0 ]
+"57
+[v _Lcd_Clear Lcd_Clear `(v  1 e 1 0 ]
+"63
+[v _Lcd_Set_Cursor Lcd_Set_Cursor `(v  1 e 1 0 ]
+"84
+[v _Lcd_Init Lcd_Init `(v  1 e 1 0 ]
+"103
+[v _Lcd_Write_Char Lcd_Write_Char `(v  1 e 1 0 ]
+"119
+[v _Lcd_Write_String Lcd_Write_String `(v  1 e 1 0 ]
+"18 C:\Users\Marco Flores\Documents\MPLABXProjects\Pickit 3\GeneradorDeFunciones.X\main_proyect.c
+[v _delay_us delay_us `(v  1 e 1 0 ]
+"27
+[v _main main `(i  1 e 2 0 ]
+"230 C:\Program Files (x86)\Microchip\xc8\v1.45\include\pic18f45k50.h
+[v _ANSELA ANSELA `VEuc  1 e 1 @3931 ]
+"275
+[v _ANSELB ANSELB `VEuc  1 e 1 @3932 ]
+"325
+[v _ANSELC ANSELC `VEuc  1 e 1 @3933 ]
+"359
+[v _ANSELD ANSELD `VEuc  1 e 1 @3934 ]
+"2899
+[v _PORTA PORTA `VEuc  1 e 1 @3968 ]
+[s S128 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+`uc 1 RA7 1 0 :1:7 
+]
+"2941
+[s S204 . 1 `uc 1 AN0 1 0 :1:0 
+`uc 1 AN1 1 0 :1:1 
+`uc 1 AN2 1 0 :1:2 
+`uc 1 AN3 1 0 :1:3 
+`uc 1 T0CKI 1 0 :1:4 
+`uc 1 AN4 1 0 :1:5 
+`uc 1 OSC2 1 0 :1:6 
+]
+[s S212 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 VREFM 1 0 :1:2 
+`uc 1 VREFP 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 LVDIN 1 0 :1:5 
+]
+[s S218 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 HLVDIN 1 0 :1:5 
+]
+[s S221 . 1 `uc 1 ULPWUIN 1 0 :1:0 
+`uc 1 . 1 0 :6:1 
+`uc 1 RJPU 1 0 :1:7 
+]
+[u S225 . 1 `S128 1 . 1 0 `S204 1 . 1 0 `S212 1 . 1 0 `S218 1 . 1 0 `S221 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES225  1 e 1 @3968 ]
+[s S323 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"3203
+[s S332 . 1 `uc 1 T1OSO 1 0 :1:0 
+`uc 1 T1OSI 1 0 :1:1 
+`uc 1 CCP1 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 TX 1 0 :1:6 
+`uc 1 RX 1 0 :1:7 
+]
+[s S339 . 1 `uc 1 T13CKI 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 P1A 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 CK 1 0 :1:6 
+`uc 1 DT 1 0 :1:7 
+]
+[s S346 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 CCP2 1 0 :1:1 
+`uc 1 PA1 1 0 :1:2 
+]
+[s S350 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 PA2 1 0 :1:1 
+]
+[u S353 . 1 `S323 1 . 1 0 `S332 1 . 1 0 `S339 1 . 1 0 `S346 1 . 1 0 `S350 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES353  1 e 1 @3970 ]
+[s S21 . 1 `uc 1 RD0 1 0 :1:0 
+`uc 1 RD1 1 0 :1:1 
+`uc 1 RD2 1 0 :1:2 
+`uc 1 RD3 1 0 :1:3 
+`uc 1 RD4 1 0 :1:4 
+`uc 1 RD5 1 0 :1:5 
+`uc 1 RD6 1 0 :1:6 
+`uc 1 RD7 1 0 :1:7 
+]
+"3334
+[s S30 . 1 `uc 1 SPP0 1 0 :1:0 
+`uc 1 SPP1 1 0 :1:1 
+`uc 1 SPP2 1 0 :1:2 
+`uc 1 SPP3 1 0 :1:3 
+`uc 1 SPP4 1 0 :1:4 
+`uc 1 SPP5 1 0 :1:5 
+`uc 1 SPP6 1 0 :1:6 
+`uc 1 SPP7 1 0 :1:7 
+]
+[s S39 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 SS2 1 0 :1:7 
+]
+[u S42 . 1 `S21 1 . 1 0 `S30 1 . 1 0 `S39 1 . 1 0 ]
+[v _PORTDbits PORTDbits `VES42  1 e 1 @3971 ]
+"3889
+[v _LATB LATB `VEuc  1 e 1 @3978 ]
+"4103
+[v _LATD LATD `VEuc  1 e 1 @3980 ]
+[s S119 . 1 `uc 1 TRISA0 1 0 :1:0 
+`uc 1 TRISA1 1 0 :1:1 
+`uc 1 TRISA2 1 0 :1:2 
+`uc 1 TRISA3 1 0 :1:3 
+`uc 1 TRISA4 1 0 :1:4 
+`uc 1 TRISA5 1 0 :1:5 
+`uc 1 TRISA6 1 0 :1:6 
+`uc 1 TRISA7 1 0 :1:7 
+]
+"4656
+[u S137 . 1 `S119 1 . 1 0 `S128 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES137  1 e 1 @3986 ]
+"4846
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+[s S78 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"5098
+[s S87 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+[u S94 . 1 `S78 1 . 1 0 `S87 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES94  1 e 1 @3988 ]
+"5246
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"9284
+[v _T2CON T2CON `VEuc  1 e 1 @4026 ]
+[s S167 . 1 `uc 1 T2CKPS 1 0 :2:0 
+`uc 1 TMR2ON 1 0 :1:2 
+`uc 1 T2OUTPS 1 0 :4:3 
+]
+"9305
+[s S171 . 1 `uc 1 T2CKPS0 1 0 :1:0 
+`uc 1 T2CKPS1 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 T2OUTPS0 1 0 :1:3 
+`uc 1 T2OUTPS1 1 0 :1:4 
+`uc 1 T2OUTPS2 1 0 :1:5 
+`uc 1 T2OUTPS3 1 0 :1:6 
+]
+[u S179 . 1 `S167 1 . 1 0 `S171 1 . 1 0 ]
+[v _T2CONbits T2CONbits `VES179  1 e 1 @4026 ]
+"9355
+[v _PR2 PR2 `VEuc  1 e 1 @4027 ]
+"9375
+[v _TMR2 TMR2 `VEuc  1 e 1 @4028 ]
+"9395
+[v _CCP1CON CCP1CON `VEuc  1 e 1 @4029 ]
+"9594
+[v _CCPR1L CCPR1L `VEuc  1 e 1 @4030 ]
+"9634
+[v _ADCON2 ADCON2 `VEuc  1 e 1 @4032 ]
+"9705
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+"9773
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @4034 ]
+[s S262 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_NOT_DONE 1 0 :1:1 
+]
+"9813
+[s S265 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS 1 0 :5:2 
+]
+[s S269 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 DONE 1 0 :1:1 
+]
+[s S272 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+]
+[s S275 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_DONE 1 0 :1:1 
+]
+[s S278 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 nDONE 1 0 :1:1 
+]
+[s S281 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GODONE 1 0 :1:1 
+]
+[s S284 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_DONE 1 0 :1:1 
+]
+[u S287 . 1 `S262 1 . 1 0 `S265 1 . 1 0 `S269 1 . 1 0 `S272 1 . 1 0 `S275 1 . 1 0 `S278 1 . 1 0 `S281 1 . 1 0 `S284 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES287  1 e 1 @4034 ]
+"9875
+[v _ADRESH ADRESH `VEuc  1 e 1 @4036 ]
+"12354
+[v _OSCCON OSCCON `VEuc  1 e 1 @4051 ]
+"27 C:\Users\Marco Flores\Documents\MPLABXProjects\Pickit 3\GeneradorDeFunciones.X\main_proyect.c
+[v _main main `(i  1 e 2 0 ]
+{
+"49
+[v main@triangular triangular `C[128]i  1 a 256 0 ]
+"30
+[v main@sine sine `C[128]i  1 a 256 0 ]
+"179
+[v main@aux aux `i  1 a 2 14 ]
+"177
+[v main@time time `ui  1 a 2 12 ]
+"27
+[v main@F5760 F5760 `C[128]i  1 s 256 F5760 ]
+"45
+[v main@F5762 F5762 `C[128]i  1 s 256 F5762 ]
+"372
+} 0
+"18
+[v _delay_us delay_us `(v  1 e 1 0 ]
+{
+[v delay_us@time time `ui  1 p 2 0 ]
+"25
+} 0
+"119 C:\Users\Marco Flores\Documents\MPLABXProjects\Pickit 3\GeneradorDeFunciones.X\lcd_lib.h
+[v _Lcd_Write_String Lcd_Write_String `(v  1 e 1 0 ]
+{
+"121
+[v Lcd_Write_String@i i `i  1 a 2 8 ]
+"119
+[v Lcd_Write_String@a a `*.25Cuc  1 p 2 4 ]
+"124
+} 0
+"103
+[v _Lcd_Write_Char Lcd_Write_Char `(v  1 e 1 0 ]
+{
+[v Lcd_Write_Char@a a `uc  1 a 1 wreg ]
+"105
+[v Lcd_Write_Char@y y `uc  1 a 1 2 ]
+[v Lcd_Write_Char@temp temp `uc  1 a 1 1 ]
+"103
+[v Lcd_Write_Char@a a `uc  1 a 1 wreg ]
+"106
+[v Lcd_Write_Char@a a `uc  1 a 1 3 ]
+"117
+} 0
+"63
+[v _Lcd_Set_Cursor Lcd_Set_Cursor `(v  1 e 1 0 ]
+{
+[v Lcd_Set_Cursor@a a `uc  1 a 1 wreg ]
+"65
+[v Lcd_Set_Cursor@temp temp `uc  1 a 1 7 ]
+[v Lcd_Set_Cursor@y y `uc  1 a 1 6 ]
+[v Lcd_Set_Cursor@z z `uc  1 a 1 5 ]
+"63
+[v Lcd_Set_Cursor@a a `uc  1 a 1 wreg ]
+[v Lcd_Set_Cursor@b b `uc  1 p 1 3 ]
+"66
+[v Lcd_Set_Cursor@a a `uc  1 a 1 4 ]
+"82
+} 0
+"84
+[v _Lcd_Init Lcd_Init `(v  1 e 1 0 ]
+{
+"101
+} 0
+"57
+[v _Lcd_Clear Lcd_Clear `(v  1 e 1 0 ]
+{
+"61
+} 0
+"47
+[v _Lcd_Cmd Lcd_Cmd `(v  1 e 1 0 ]
+{
+[v Lcd_Cmd@a a `uc  1 a 1 wreg ]
+[v Lcd_Cmd@a a `uc  1 a 1 wreg ]
+"49
+[v Lcd_Cmd@a a `uc  1 a 1 2 ]
+"55
+} 0
+"25
+[v _Lcd_Port Lcd_Port `(v  1 e 1 0 ]
+{
+[v Lcd_Port@a a `uc  1 a 1 wreg ]
+[v Lcd_Port@a a `uc  1 a 1 wreg ]
+"27
+[v Lcd_Port@a a `uc  1 a 1 0 ]
+"46
+} 0
